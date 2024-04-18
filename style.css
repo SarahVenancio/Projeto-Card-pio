@@ -1,0 +1,218 @@
+/* PROJETO CARDÁPIO */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body{
+    height: 100vh;
+    background-color: #f9cb8a;
+}
+
+#linha_topo{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
+
+#topo{
+    background-color: #f4ae4a;
+    height: 165px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#topo #logo{
+    width: 160px;
+    height: 160px;
+    margin-right: 1%;
+    margin-top: 2%;
+}
+
+#topo #logo img{
+    margin-top: 5%;
+    width: 80%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#topo h1{
+    font-size: 70px;
+    color: #3d1a00;
+}
+
+#menu{
+    background-color: #f4ae4a;
+    display: flex;
+    justify-content: center;
+}
+
+#menu ul{
+    list-style: none;
+}
+
+#menu ul li{
+    display: inline;
+}
+
+#menu ul li a{
+    display: inline-block;
+    padding: 10px 20px;
+    color: rgb(16, 16, 16);
+    font-size: 17px;
+}
+
+#menu ul li a:hover{
+    background-color: #f8c277;
+}
+
+#conteudo{
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 190px;
+}
+
+#p1{
+    height: 100vh;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.card{
+    width: 300px;
+    height: 400px;
+    padding: 5px;
+    margin: 20px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 15px  #000000;
+    background-color: #f8c277;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.card img{
+    width: 280px;
+    height: 280px;
+    background-color: rgb(13, 2, 61);
+    border-radius: 15px;
+}
+
+.card h2{
+    font-size: 2em;
+    display: flex;
+    text-align: center;
+}
+
+.card h4{
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+}
+
+.card p{
+    font-size: 1em;
+    display: flex;
+    text-align: center;
+}
+
+#p2{
+    height: 100vh;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#p3{
+    height: 100vh;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#p4{
+    height: 100vh;
+    padding-top: 220px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#rodape{
+    height: 120px;
+    background-color: #f4ae4a;
+    font-size: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#rodape h3{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+#rodape #direita{
+    width: 35%;
+}
+
+#rodape #direita img{
+    width: 35%;
+    margin-top: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#rodape #centro{
+    width: 30%;
+}
+
+#rodape #centro img{
+    width: 35%;
+    margin-top: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+#rodape #esquerda{
+    width: 35%;
+}
+
+#rodape #esquerda img{
+    width: 35%;
+    margin-top: 5%;
+    height: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
