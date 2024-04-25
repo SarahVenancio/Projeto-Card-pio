@@ -91,6 +91,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 .card{
@@ -106,6 +107,7 @@ body{
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    text-align: center;
 }
 
 .card img{
@@ -140,6 +142,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 #p3{
@@ -149,6 +152,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 #p4{
@@ -158,6 +162,7 @@ body{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: space-around;
+    text-align: center;
 }
 
 #rodape{
@@ -169,50 +174,31 @@ body{
     justify-content: space-around;
 }
 
-#rodape h3{
-    display: flex;
-    align-items: center;
+#esquerda{
+    font-size: 1em;
+    width: 35%;
+    text-align: center;
+    font-size: 25px
+}
+
+
+#centro{
+    width: 30%;
+    font-size: 1em;
     text-align: center;
 }
 
-#rodape #direita{
+#direita{
     width: 35%;
-}
-
-#rodape #direita img{
-    width: 35%;
-    margin-top: 5%;
-    height: 40%;
-    display: flex;
+    display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
+    font-size: 25px;
 }
 
-#rodape #centro{
-    width: 30%;
-}
-
-#rodape #centro img{
-    width: 35%;
-    margin-top: 5%;
-    height: 40%;
-    display: flex;
+#rodape #centro h3{
+    display:flex;
     justify-content: center;
     align-items: center;
-    flex-direction: row;
-}
-
-#rodape #esquerda{
-    width: 35%;
-}
-
-#rodape #esquerda img{
-    width: 35%;
-    margin-top: 5%;
-    height: 40%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: row;
+    font-size: 25px;
 }
